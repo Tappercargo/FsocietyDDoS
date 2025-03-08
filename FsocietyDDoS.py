@@ -1,7 +1,8 @@
 import colorama
 import threading
 import requests
-print('          Fsociety DdoS           ')
+
+print(colorama.Fore.GREEN + '          Fsociety DdoS           ')
 print('⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠉⠉⠉⠉⠙⠛⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿')
 print('⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿')
 print('⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿')
@@ -27,7 +28,7 @@ def dos(target):
             print(colorama.Fore.RED + "[+] " + colorama.Fore.LIGHTGREEN_EX + "Connection error!")
 
 
-threads = 1000
+threads = 10000
 
 url = input("URL: ")
 
